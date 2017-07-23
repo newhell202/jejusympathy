@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-돼?
-돼요?
+<!-- 메인으로 바로 이동 -->
+<%
+	response.sendRedirect("main.do");  
+%>
 </body>
 </html>
